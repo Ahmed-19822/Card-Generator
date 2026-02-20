@@ -59,39 +59,50 @@ body{
     margin-left: 450px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
+    position: relative;
 }
 .name{
-    margin-top: 170px;
+    padding: 0 5px 2px 5px;
+   margin-top:40px;
     margin-left: 0px;
-    padding-left: 90px;
+    margin-left: 90px;
     border-radius: 5px;
-    background-color: rgb(141, 120, 92);
+    background-color: rgb(85, 64, 64);
     color: white;
+    position: absolute;
     
 }
 .course{
-    margin-top: 10px;
+    margin-top: 84px;
     margin-left: 40px;
     font-size: 17px;
     width: 250px;
-     background-color: rgb(126, 110, 90);
+    background-color: rgb(85, 64, 64);
     color: white;
     border-radius: 5px;
-    
-    
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: center;
 }
 .logo{
     margin-left: 80px;
     
 }
 .roll{
-     margin-top: 10px;
-    margin-left: 80px;
+     margin-top: 140px;
+    margin-left: 86px;
     font-size: 17px;
     width: 150px;
     padding-right: -10px;
-     background-color: rgb(126, 110, 90);
+     background-color: rgb(85, 64, 64);
     color: white;
     border-radius: 5px;
     padding-left: 17px;
+    position: absolute;
+    
+}
+.pfp {
+    
+    position: absolute;
 }

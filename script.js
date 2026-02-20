@@ -11,7 +11,7 @@ Swal.fire({
 
 
 
-    const imageinput = document.getElementById("image").value;
+    const imageinput = document.getElementById("image").files;
     const nameinput = document.getElementById("name").value;
     const fatherinput = document.getElementById("father").value;
     const cnicinput = document.getElementById("cnic").value;
@@ -30,7 +30,7 @@ Swal.fire({
     let h2 = document.createElement("h1");
     let h3 = document.createElement("h1");
     let h4 = document.createElement("h1");
-    let h5 = document.createElement("h1");
+    let h5 = document.createElement("img");
     let h6 = document.createElement("h1");
     h4.className= "course";
     let logo = document.createElement("img");
@@ -39,14 +39,21 @@ Swal.fire({
     box.id = "box1";
     logo.src = "https://lms.saylanimit.com/logo.png";
     logo.width =150;
-    pfp.src = imageinput;
-    pfp.width = 150;
+    
+   if (imageinput && imageinput[0]) {
+    pfp.src = URL.createObjectURL(imageinput[0]);
+}
+pfp.width = 100;
+pfp.style.marginLeft = "110px";
+pfp.style.border = "4px solid gray";
+    
     h1.innerText =  nameinput
     h2.innerText =  fatherinput
     h3.innerText =  cnicinput
     h4.innerText =  courseinput
+    h5.innerText =  imageinput
    h6.innerText = "Roll No: " + m;
-   
+   h5.className = "pfp"
    h6.className = "roll";
     maincard.appendChild(box);
     box.appendChild(logo);
