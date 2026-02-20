@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 23, 53);
+}
+.generator{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 450px;
+    display: flex;
+    padding: 20px;
+    background-color: rgb(116, 108, 99);
+}
+.generator input{
+    outline:none;
+    background-color: aqua;
+    border: none;
+    width: 280px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 15px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.generator button{
+    margin-left:80px;
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(112, 167, 167);
+} 
+.generator button:hover{
+    background-color: rgb(40, 33, 48);
+}
+.crd{
+    margin-left: 60px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#box1{
+    padding: 10px;
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 450px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+.name{
+    margin-top: 170px;
+    margin-left: 0px;
+    padding-left: 90px;
+    border-radius: 5px;
+    background-color: rgb(141, 120, 92);
+    color: white;
+    
+}
+.course{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 17px;
+    width: 250px;
+     background-color: rgb(126, 110, 90);
+    color: white;
+    border-radius: 5px;
+    
+    
+}
+.logo{
+    margin-left: 80px;
+    
+}
+.roll{
+     margin-top: 10px;
+    margin-left: 80px;
+    font-size: 17px;
+    width: 150px;
+    padding-right: -10px;
+     background-color: rgb(126, 110, 90);
+    color: white;
+    border-radius: 5px;
+    padding-left: 17px;
+}

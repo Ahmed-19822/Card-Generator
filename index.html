@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD GENERATOR</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    
+<div class="generator">
+    <div class="i">
+    <label class="crd">ID CARD GENERATOR</label>
+    <input type="file" placeholder="ENTER YOUR CLEAR IMAGE" id="image">
+    <input type="text" placeholder="ENTER YOUR NAME" id="name">
+    <input type="text" placeholder="ENTER YOUR FATHER NAME" id="father">
+    <input type="text" placeholder="ENTER YOUR CNIC" id="cnic">
+    <input type="text" placeholder="ENTER COURSE NAME" id="course">
+     <button onclick="generate()">Generate Card</button>
+     </div>
+</div>
+
+ <div id="main-card" class="main-card">    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
